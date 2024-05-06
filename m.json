@@ -4,6 +4,63 @@
   "wallpaper": "https://深色壁纸.xxooo.cf/",
    "warningText": "资源来自网络，所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买。",
    "sites": [
+         {
+      "key": "Alist",
+      "name": "🌟小雅┃高清",
+      "type": 3,
+      "api": "http://192.168.50.105:5678/tvbox/libs/alist.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": [
+        {
+          "name": "丫仙女",
+          "server": "http://192.168.50.105:5678/",
+          "startPage": "/",
+          "search": true
+        },
+        {
+          "name": "每日更新",
+          "server": "http://192.168.50.105:5678/",
+          "startPage": "/每日更新"
+        },
+        {
+          "name": "电影",
+          "server": "http://192.168.50.105:5678/",
+          "startPage": "/电影"
+        },
+        {
+          "name": "电视剧",
+          "server": "http://192.168.50.105:5678/",
+          "startPage": "/电视剧"
+        },
+        {
+          "name": "短剧",
+          "server": "http://192.168.50.105:5678/",
+          "startPage": "/每日更新/爽文短剧"
+        },
+        {
+          "name": "综艺",
+          "server": "http://192.168.50.105:5678/",
+          "startPage": "/综艺"
+        },
+        {
+          "name": "纪录片",
+          "server": "http://192.168.50.105:5678/",
+          "startPage": "/纪录片"
+        },
+        {
+          "name": "动漫",
+          "server": "http://192.168.50.105:5678/",
+          "startPage": "/动漫"
+        },
+        {
+          "name": "儿童",
+          "server": "http://192.168.50.105:5678/",
+          "startPage": "/动漫/儿童"
+        }
+      ]
+    },
      {"key": "csp_douban","name": "🌕┃豆瓣┃热播","type": 3,"api": "csp_DouDou","searchable": 0,"quickSearch": 0,"filterable": 0},
     {"key": "js_豆瓣","name": "🐼┃豆瓣┃推荐","type": 3,"api": "./libs/js/drpy2.min.js","searchable": 1,"quickSearch": 0,"changeable": 0,"ext": "./libs/js/豆瓣推荐.js"},
      {"key": "csp_KungFu404","name": "🔥设置Token","type": 3,"api": "csp_KungFu404","searchable": 0,"filterable": 0,"changeable": 0,"jar": "./libs/jar/Token.jar","ext": "http://127.0.0.1:9978/file/tvfan/token.txt"},
