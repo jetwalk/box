@@ -14,12 +14,6 @@
       "filterable": 0,
       "ext": [
         {
-          "name": "丫仙女",
-          "server": "http://192.168.50.105:5678/",
-          "startPage": "/",
-          "search": true
-        },
-        {
           "name": "每日更新",
           "server": "http://192.168.50.105:5678/",
           "startPage": "/每日更新"
@@ -58,6 +52,12 @@
           "name": "儿童",
           "server": "http://192.168.50.105:5678/",
           "startPage": "/动漫/儿童"
+        },
+        {
+          "name": "备用",
+          "server": "http://192.168.50.105:5678/",
+          "startPage": "/",
+          "search": true
         }
       ]
     },
